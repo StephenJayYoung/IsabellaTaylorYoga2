@@ -30,6 +30,31 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+   <!-- JS for the instagram API -->
+    <script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: 196679624,
+        accessToken: '196679624.a2aacdc.4f3e5d596678454ca396d2204159dc4f',
+        useHttp: true,
+        limit: 9,
+        resolution: 'low_resolution',
+  after: function () {
+    var images = $("#instafeed").find('a');
+    $.each(images, function(index, image) {
+      var delay = (index * 5) + 'ms';
+      $(image).css('-webkit-animation-delay', delay);
+      $(image).css('-moz-animation-delay', delay);
+      $(image).css('-ms-animation-delay', delay);
+      $(image).css('-o-animation-delay', delay);
+      $(image).css('animation-delay', delay);
+      $(image).addClass('animated flipInX');
+    });
+  },
+  template: '<a href="{{link}}" target="_blank"><img src="{{image}}"</div></a>'
+});
+    userFeed.run();
+</script>
 
 </head>
 
@@ -86,7 +111,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="bg-light-gray">
+    <section id="about" class="">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -166,14 +191,25 @@
  <!--            </div>
         </div>
     </section> -->
-
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Follow Me @IsabellAnais</h2>
+                    <h3 class="section-subheading text-muted">Enter the Instagram APi here...</h3>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Services Section -->
     <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">My Things</h2>
+                    <h2 class="section-heading">Yoga Music</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -206,18 +242,7 @@
         </div>
     </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Follow Me @IsabellaAnais</h2>
-                    <h3 class="section-subheading text-muted">Enter the Instagram APi here...</h3>
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
 
 
@@ -373,7 +398,7 @@
                         </li>
                         <li><a href="#"><i class="fa fa-soundcloud"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-wordpress"></i></a>
+                        <li><a href="#"><i class="fa fa-mail"></i></a>
                         </li>
                     </ul>
                 </div>
