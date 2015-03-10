@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
 
+    <!-- my own (overwritten) CSS -->
+     <link href="css/stylesheet.css" rel="stylesheet"> 
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -30,6 +33,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+ <!-- JS min file for the instagram API -->
+    <script src="js/instafeed.min.js"></script>
    <!-- JS for the instagram API -->
     <script type="text/javascript">
     var userFeed = new Instafeed({
@@ -200,6 +205,15 @@
                     <h3 class="section-subheading text-muted">Enter the Instagram APi here...</h3>
                 </div>
                 </div>
+
+            <div class ="row">
+                <div class = "container-fluid">
+                    <div class="caption-full text-center">
+                        <div id="instafeed"></div>
+                    </div>
+                </div>
+            </div>
+
             </div>
         </div>
     </section>
