@@ -210,6 +210,7 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .navbar-default .nav li a:hover,
@@ -265,13 +266,14 @@ header {
     text-align: center;
     color: white;
     background-attachment: scroll;
-    background-image: url('https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/10860016_773577912679639_2104056900_n.jpg');
+    background-image: url("../img/YogaPic.jpg");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 header .intro-text {
@@ -294,6 +296,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    opacity: .9;
 }
 
 @media(min-width:768px) {
