@@ -289,7 +289,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Young Creative Space</span>
+                    <span class="copyright"><a href="http://youngcreativespace.com/">Copyright &copy; Young Creative Space</a></span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
