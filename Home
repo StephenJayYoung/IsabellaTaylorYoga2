@@ -180,46 +180,16 @@
             </div>
             <div class="row text-center">
                 <div class="span1">
-<!--                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i> -->
-                    </span>
                     <h4 class="service-heading">Soundcloud Playlist</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    <br>
-
-
-
-<iframe class="iframe" width="50%" height="465" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https://soundcloud.com/isabella-taylor-4/sets/vinyasa-flow&amp;auto_play=false&amp;buying=true&amp;liking=true&amp;download=true&amp;sharing=true&amp;show_artwork=true&amp;show_comments=true&amp;show_playcount=true&amp;show_user=true&amp;hide_related=false&amp;visual=true&amp;start_track=0&amp;callback=true">
-</iframe>
-
-
-
-
-
-<!-- <object height="81" width="100%" id="yourPlayerId" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
-  <param name="movie" value="https://w.soundcloud.com/player/?url=https://soundcloud.com/isabella-taylor-4/sets/vinyasa-flow&amp;auto_play=false&amp;buying=true&amp;liking=true&amp;download=true&amp;sharing=true&amp;show_artwork=true&amp;show_comments=true&amp;show_playcount=true&amp;show_user=true&amp;hide_related=false&amp;visual=true&amp;start_track=0&amp;callback=true&enable_api=true&object_id=yourPlayerId"></param>
-  <param name="allowscriptaccess" value="always"></param>
-  <embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=https://w.soundcloud.com/player/?url=https://soundcloud.com/isabella-taylor-4/sets/vinyasa-flow&amp;auto_play=false&amp;buying=true&amp;liking=true&amp;download=true&amp;sharing=true&amp;show_artwork=true&amp;show_comments=true&amp;show_playcount=true&amp;show_user=true&amp;hide_related=false&amp;visual=true&amp;start_track=0&amp;callback=true&enable_api=true&object_id=yourPlayerId" type="application/x-shockwave-flash" width="100%" name="yourPlayerId"></embed>
-</object> -->
-
-
-
-<!--This div below is for the soundcloud widget  -->
-<!--   <div id="scWidget"></div> -->
-<!--Soundcloud API stuff 
-<!Soundcloud API stuff
-<script src="js/soundcloudapi.js"></script>-->
-
+                    <iframe class="iframe" width="50%" height="465" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https://soundcloud.com/isabella-taylor-4/sets/vinyasa-flow&amp;auto_play=false&amp;buying=true&amp;liking=true&amp;download=true&amp;sharing=true&amp;show_artwork=true&amp;show_comments=true&amp;show_playcount=true&amp;show_user=true&amp;hide_related=false&amp;visual=true&amp;start_track=0&amp;callback=true">
+                    </iframe>
                 </div>
                 <div class="span2">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
-                    </span>
                     <h4 class="service-heading">Spotify Playlist</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
+                <iframe src="https://embed.spotify.com/?uri=spotify:user:124624984:playlist:0ShMGZcllWxI0YBNX6G3Op" width="600" height="670" frameborder="0" allowtransparency="true"></iframe>
             </div>
         </div>
     </section>
