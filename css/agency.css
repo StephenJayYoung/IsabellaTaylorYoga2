@@ -279,6 +279,8 @@ header {
     background-size: cover;
     -o-background-size: cover;
     text-shadow: 2px 2px 4px #000000;
+    max-width: 100%;
+    height: auto;
 }
 
 header .intro-text {
