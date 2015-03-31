@@ -304,6 +304,8 @@ header .intro-text .intro-heading {
     opacity: .9;
     -webkit-text-stroke-width: .8px;
     -webkit-text-stroke-color: black;
+    max-width: 100%;
+    height: auto;
 }
 
 @media(min-width:768px) {
